@@ -40,3 +40,4 @@
    pipeline-scm:
       scm:
          - git-runner
+   script-path: jobs/scripts/run-all-tests.groovy
