@@ -1,5 +1,5 @@
 timeout(60) {
-    node('Built-In Node') {
+    node('maven') {
         stage('Checkout') {
             checkout scm
             //git branch: "$BRANCH", credentialsId: 'jenkins', url: 'git@github.com:smaginalexander/jenkins.git'
