@@ -23,12 +23,12 @@
          default: chrome
          description: Browser name
       - string:
-         name: BROVSER_VERSION
-         default: 107.0
+         name: BROWSER_VERSION
+         default: 109.0
          decription: Browser version
       - string:
          name: GRID_URL
-         default: http://127.0.0.1:4445
+         default: http://127.0.0.1:4444
    pipeline-scm:
       scm:
          - git-ui-tests
