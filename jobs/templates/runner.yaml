@@ -29,7 +29,7 @@
       - string:
          name: GRID_URL
          default: http://127.0.0.1:4445
-      - string:
+      - extended-choice:
          name: TEST_TYPE
          decription: Test type
          quote-value: false
