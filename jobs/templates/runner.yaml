@@ -23,7 +23,7 @@
          default: chrome
          description: Browser name
       - string:
-         name: BROVSER_VERSION
+         name: BROWSER_VERSION
          default: 109.0
          decription: Browser version
       - string:

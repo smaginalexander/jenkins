@@ -11,8 +11,8 @@ timeout(60) {
             jobs['ui-tests'] = {
                 node('maven') {
                     stage('Ui tests on chrome') {
+                        echo "____________________________________________________________________"
                         if ('ui' in runnerJobs) {
-                            echo "##################################### $BROWSER_VERSION"
                             catchError(buldResult: 'SUCCESS', stageResult: 'UNSTABLE') {
                                 build(job: 'ui-tests',
                                         parameters: [
