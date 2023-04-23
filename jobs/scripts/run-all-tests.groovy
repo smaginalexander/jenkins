@@ -2,7 +2,6 @@ timeout(60) {
     node('maven') {
         stage('Checkout') {
             checkout scm
-            //git branch: "$BRANCH", credentialsId: 'jenkins', url: 'git@github.com:smaginalexander/jenkins.git'
         }
         stage('Run tests') {
             def jobs = [:]
@@ -10,7 +9,7 @@ timeout(60) {
             def runnerJobs = "$TEST_TYPE".split(",")
 
             jobs['ui-tests'] = {
-                node('maven-slave') {
+                node('maven') {
                     stage('Ui tests on chrome') {
                         if ('ui' in runnerJobs) {
                             catchError(buldResult: 'SUCCESS', stageResult: 'UNSTABLE') {
