@@ -25,7 +25,7 @@
     filter-executors: true
     filter-queue: true
     job-name:
-      - 'jobs_uploader'
+      - 'upload-jobs'
     columns:
       - status
       - build-button
