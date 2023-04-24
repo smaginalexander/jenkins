@@ -1,5 +1,5 @@
 - job-template:
-    name: upload-jobs
+    name: 'upload-jobs'
     description: Jobs uploader to jenkins
     project-type: pipeline
     parameters:
