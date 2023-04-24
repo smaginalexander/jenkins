@@ -6,3 +6,4 @@
    jobs:
       - 'ui-tests'
       - 'runner-tests'
+      - 'upload-jobs'
