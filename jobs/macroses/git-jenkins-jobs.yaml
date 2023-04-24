@@ -4,7 +4,7 @@
    name: git-ui-tests
    scm:
    - git:
-      url: git@github.com/smaginalexander/otus_work_1.git
+      url: git@github.com:smaginalexander/otus_work_1.git
       credentials-id: jenkins
       branches:
       - FETCH_HEAD
