@@ -25,7 +25,8 @@
     filter-executors: true
     filter-queue: true
     job-name:
-      - 'upload-jobs'
+      - 'ui-tests'
+      - 'runner-tests'
     columns:
       - status
       - build-button
