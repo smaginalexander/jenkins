@@ -32,7 +32,7 @@
    pipeline-scm:
       scm:
          - git-ui-tests
-      script-path: jenkins/scripts/ui-tests.groovy
+      script-path: jenkins/ui-tests.groovy
    publishers:
       - allure:
          results-pats:
